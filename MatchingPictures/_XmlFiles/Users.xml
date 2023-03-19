@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <List>
+    <User>
+      <Name>BiancaG</Name>
+      <ImageIndex>0</ImageIndex>
+      <GameProperty>
+        <CategoryProperty>All</CategoryProperty>
+        <SavedGame>false</SavedGame>
+      </GameProperty>
+    </User>
+  </List>
+</Users>
