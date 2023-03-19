@@ -29,18 +29,7 @@ namespace MatchingPictures.ViewModels
 
           
 
-            //try
-            //{
-            //    FileStream file = new FileStream("Images.xml", FileMode.Open);
-            //    file.Dispose();
-            //}
-            //catch (FileNotFoundException)
-            //{
-            //    Images images = new Images();
-            //    images.AddImages();
-            //    SerializationActions actions = new SerializationActions();
-            //    actions.SerializeImages("Images.xml", images);
-            //}
+          
         }
 
         public bool CanExecuteCommandSignIn { get; set; } = false;

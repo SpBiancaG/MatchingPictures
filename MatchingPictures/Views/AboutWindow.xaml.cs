@@ -22,7 +22,7 @@ namespace MatchingPictures.Views
         public AboutWindow()
         {
             InitializeComponent();
-            programmersNameTextBlock.Text += "®Bucur Robert-Adrian\nGrupa213\nInformatica";
+            programmersNameTextBlock.Text += "®Spataru Bianca Gabriela\nGrupa213\nInformatica";
             
         }
        

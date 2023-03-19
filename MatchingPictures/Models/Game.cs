@@ -11,7 +11,7 @@ namespace MatchingPictures.Models
     public enum Category
     {
         None,
-        All,
+        Basic
         
     }
 
@@ -46,10 +46,6 @@ namespace MatchingPictures.Models
             savedGame = false;
         }
 
-        
-
-        
-
         public Category CategoryProperty
         {
             get
@@ -62,14 +58,6 @@ namespace MatchingPictures.Models
                 NotifyPropertyChanged("CategoryProperty");
             }
         }
-
-       
-
-       
-
-      
-        
-
         public bool SavedGame
         {
             get

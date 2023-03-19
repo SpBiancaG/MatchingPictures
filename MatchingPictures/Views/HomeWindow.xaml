@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MatchingPictures.Views"
         xmlns:ctx="clr-namespace:MatchingPictures.ViewModels"
         mc:Ignorable="d"
-        Title="Hangman" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+        Title="Hangman" Height="693" Width="888" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
             <Setter Property="Background" Value="Transparent"/>
@@ -36,38 +36,145 @@
             <ImageBrush ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\BackgroundImage.png"/>
         </Grid.Background>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="30"/>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="380"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
 
-        <Menu Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="100" Background="Transparent" BorderBrush="Transparent" BorderThickness="1">
-            <MenuItem Header="File" FontSize="20" FontFamily="MV Boli" Foreground="White" BorderThickness="1" Background="Transparent">
-                <MenuItem Header="New" Background="#2F815D" Command="{Binding NewCommand}"/>
-                <MenuItem Header="Save" Background="#2F815D" Command="{Binding SaveCommand}"/>
-                <MenuItem Header="Statistics" Background="#2F815D" Command="{Binding StatisticsCommand}"/>
-                <MenuItem Header="Exit" Background="#2F815D" Command="{Binding ExitCommand}"/>
+
+        <Menu Grid.Row="0" Grid.Column="0" Background="Transparent" BorderBrush="Transparent" BorderThickness="1" RenderTransformOrigin="0.502,1.135" Margin="0,10,573,571">
+            <MenuItem Header="More" FontSize="20" FontFamily="MV Boli" Foreground="White" BorderThickness="1" Background="Transparent" BorderBrush="AntiqueWhite" Width="94">
+                <MenuItem Header="New" Background="IndianRed" Command="{Binding NewCommand}"/>
+                <MenuItem Header="Save" Background="IndianRed" Command="{Binding SaveCommand}"/>
+                <MenuItem Header="Exit" Background="IndianRed" Command="{Binding ExitCommand}"/>
             </MenuItem>
-            <MenuItem Header="Categories" FontSize="20" FontFamily="MV Boli" Foreground="White" BorderThickness="1" Background="Transparent">
-                <MenuItem x:Name="AllMenuItem" Header="All" Background="#2F815D" IsCheckable="True" Command="{Binding SelectCategoryCommand}" CommandParameter="{Binding ElementName=AllMenuItem}" IsChecked="{Binding AllIsSelected}"/>
-                <MenuItem x:Name="CarsMenuItem" Header="Cars" Background="#2F815D" IsCheckable="True" Command="{Binding SelectCategoryCommand}" CommandParameter="{Binding ElementName=CarsMenuItem}" IsChecked="{Binding CarsIsSelected}"/>
-                <MenuItem x:Name="MountainsMenuItem" Header="Mountains" Background="#2F815D" IsCheckable="True" Command="{Binding SelectCategoryCommand}" CommandParameter="{Binding ElementName=MountainsMenuItem}" IsChecked="{Binding MountainsIsSelected}"/>
-                <MenuItem x:Name="MoviesMenuItem" Header="Movies" Background="#2F815D" IsCheckable="True" Command="{Binding SelectCategoryCommand}" CommandParameter="{Binding ElementName=MoviesMenuItem}" IsChecked="{Binding MoviesIsSelected}"/>
-                <MenuItem x:Name="RiversMenuItem" Header="Rivers" Background="#2F815D" IsCheckable="True" Command="{Binding SelectCategoryCommand}" CommandParameter="{Binding ElementName=RiversMenuItem}" IsChecked="{Binding RiversIsSelected}"/>
-                <MenuItem x:Name="StatesMenuItem" Header="States" Background="#2F815D" IsCheckable="True" Command="{Binding SelectCategoryCommand}" CommandParameter="{Binding ElementName=StatesMenuItem}" IsChecked="{Binding StatesIsSelected}"/>
+            <MenuItem Header="Categories" FontSize="20" FontFamily="MV Boli" Foreground="White" BorderThickness="1" Background="Transparent" BorderBrush="AntiqueWhite">
+                <MenuItem x:Name="BasicMenuItem" Header="All" Background="IndianRed" IsCheckable="True" Command="{Binding SelectCategoryCommand}" CommandParameter="{Binding ElementName=AllMenuItem}" IsChecked="{Binding AllIsSelected}"/>
+
             </MenuItem>
-            <MenuItem Header="Help" FontSize="20" FontFamily="MV Boli" Foreground="White" BorderThickness="1" Background="Transparent">
-                <MenuItem Header="About" Background="#2F815D" Command="{Binding AboutCommand}"/>
+            <MenuItem Header="About" FontSize="20" FontFamily="MV Boli" Foreground="White" BorderThickness="1" Background="Transparent" BorderBrush="AntiqueWhite" Width="83">
+                <MenuItem Header="About" Background="IndianRed" Command="{Binding AboutCommand}"/>
             </MenuItem>
         </Menu>
+        <Grid HorizontalAlignment="Center" Height="495" Margin="0,125,0,0" VerticalAlignment="Top" Width="496">
 
-        <Image Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Height="200" VerticalAlignment="Top" Source="{Binding UserImageSource}"/>
 
-        <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" VerticalAlignment="Bottom" Margin="0, 30" Content="{Binding WordOnDisplay}" FontFamily="MV Boli" FontSize="30" Foreground="White" />
+            <Image x:Name="A2" HorizontalAlignment="Left" Height="120" Margin="0,375,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P6.png" Stretch="UniformToFill"/>
+            <Image x:Name="A5" HorizontalAlignment="Left" Height="120" Margin="125,375,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P6.png" OpacityMask="White" Stretch="UniformToFill"/>
+            <Image x:Name="A6" HorizontalAlignment="Left" Height="120" Margin="125,0,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P5.png" OpacityMask="White" Stretch="UniformToFill"/>
+            <Image x:Name="A3" HorizontalAlignment="Left" Height="120" Margin="375,375,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P5.png" OpacityMask="#FFD8A9A9" Stretch="UniformToFill"/>
+            <Image x:Name="A4" HorizontalAlignment="Left" Height="120" Margin="250,250,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P4.png" OpacityMask="White" Stretch="UniformToFill"/>
+            <Image x:Name="A8" HorizontalAlignment="Left" Height="120" Margin="375,0,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P4.png" OpacityMask="White" Stretch="UniformToFill"/>
+            <Image x:Name="A7" HorizontalAlignment="Left" Height="120" Margin="250,0,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P3.png" OpacityMask="White" Stretch="UniformToFill"/>
+            <Image x:Name="A9" HorizontalAlignment="Left" Height="120" Margin="0,250,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P3.png" OpacityMask="White" Stretch="UniformToFill"/>
+            <Image x:Name="A12" HorizontalAlignment="Left" Height="120" Margin="0,125,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P2.png" OpacityMask="White" Stretch="UniformToFill"/>
+            <Image x:Name="A11" HorizontalAlignment="Left" Height="120" Margin="250,125,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P2.png" OpacityMask="White" Stretch="UniformToFill"/>
+            <Image x:Name="A10" HorizontalAlignment="Left" Height="120" Margin="125,125,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P1.png" OpacityMask="White" Stretch="UniformToFill"/>
+            <Image x:Name="A1" HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P1.png" Stretch="UniformToFill"/>
+            <Image x:Name="A13" HorizontalAlignment="Left" Height="120" Margin="250,375,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P7.png" Stretch="UniformToFill"/>
+            <Image x:Name="A14" HorizontalAlignment="Left" Height="120" Margin="375,125,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P7.png" Stretch="UniformToFill"/>
+            <Image x:Name="A15" HorizontalAlignment="Left" Height="120" Margin="375,250,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P8.png" Stretch="UniformToFill"/>
+            <Image x:Name="A16" HorizontalAlignment="Left" Height="120" Margin="125,250,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P8.png" Stretch="UniformToFill"/>
+
+
+            <Button x:Name="B1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+
+            <Button x:Name="B2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="125,0,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B9" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="250,0,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B8" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="375,0,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="0,125,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B6" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="125,125,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="250,125,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="375,125,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="0,250,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B12" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="125,250,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B11" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="250,250,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B10" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="375,250,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B13" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="0,375,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B14" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="125,375,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B15" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="250,375,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="B16" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="375,375,0,0">
+                <Button.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+
+
+
+        </Grid>
+
+        <Label x:Name="lbl_steps" Content="Steps Left" HorizontalAlignment="Left" Margin="538,14,0,0" VerticalAlignment="Top" Height="54" Width="172" RenderTransformOrigin="0.5,0.5" FontFamily="MV Boli" FontSize="30" Foreground="AntiqueWhite" >
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.213"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        
+        <Button x:Name="btn_score" Content="30" HorizontalAlignment="Left" Margin="721,10,0,0" VerticalAlignment="Top" Width="69" Height="61" Background="Transparent" Foreground="AntiqueWhite" BorderBrush="AntiqueWhite" FontFamily="MV Boli" FontSize="40"/>
+
+
+
+
     </Grid>
+
 </Window>

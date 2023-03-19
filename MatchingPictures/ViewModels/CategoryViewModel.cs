@@ -22,7 +22,7 @@ namespace MatchingPictures.ViewModels
         public CategoryViewModel()
         {
             Categories = new ObservableCollection<Category>();
-            Categories.Add(Category.All);
+            Categories.Add(Category.Basic);
             
         }
 
@@ -30,7 +30,7 @@ namespace MatchingPictures.ViewModels
         {
             this.user = user;
             Categories = new ObservableCollection<Category>();
-            Categories.Add(Category.All);
+            Categories.Add(Category.Basic);
             
             this.fromSignUp = fromSignUp;
         }

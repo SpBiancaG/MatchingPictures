@@ -30,9 +30,12 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
+        
     </Window.Resources>
+    <Window.DataContext>
+        <ctx:CategoryViewModel/>
+    </Window.DataContext>
 
-    
 
     <Grid>
         <Grid.Background>
@@ -40,7 +43,7 @@
         </Grid.Background>
 
         <StackPanel>
-            <Button Grid.Column="0" Grid.Row="1" Content=" &lt; BACK" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli" HorizontalAlignment="Left" VerticalAlignment="Bottom" HorizontalContentAlignment="Left" Command="{Binding BackCommand}"/>
+            <Button Grid.Column="0" Grid.Row="1" Content=" ᐊᐊ" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli" HorizontalAlignment="Left" VerticalAlignment="Bottom" HorizontalContentAlignment="Left" Command="{Binding BackCommand}" Width="60" Height="60" Click="Button_Click"/>
 
             <TextBlock Text="Choose a category" FontFamily="MV Boli" Foreground="White" FontSize="50" HorizontalAlignment="Center"/>
 

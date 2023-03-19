@@ -29,15 +29,12 @@ namespace MatchingPictures.ViewModels
         private Users users;
         private Images images = new Images();
         private DispatcherTimer timer = new DispatcherTimer();
-        private bool firstCreation = true;
+        
         private bool resumeGame = false;
         private ObservableCollection<Button> buttons = new ObservableCollection<Button>();
         private SerializationActions serializationActions = new SerializationActions();
 
-        public HomeViewModel()
-        {
-
-        }
+       
         public HomeViewModel(User user, bool resumeGame = false)
         {
             users = serializationActions.DeserializeUsers(Constants.UsersFile);
@@ -70,21 +67,7 @@ namespace MatchingPictures.ViewModels
 
 
 
-        public BitmapImage UserImageSource
-        {
-            get
-            {
-                return images.Emojis[user.ImageIndex];
-            }
-        }
-
-
-
-
-
-
-
-
+       
 
 
 
@@ -181,7 +164,7 @@ namespace MatchingPictures.ViewModels
                 
                 switch (user.GameProperty.CategoryProperty)
                 {
-                    case Category.All:
+                    case Category.Basic:
                         
                         break;
 

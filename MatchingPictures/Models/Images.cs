@@ -11,7 +11,7 @@ namespace MatchingPictures.Models
     public class Images
     {
         public ObservableCollection<BitmapImage> Emojis { get; set; }
-        public ObservableCollection<BitmapImage> Hangs { get; set; }
+        
 
         public Images()
         {

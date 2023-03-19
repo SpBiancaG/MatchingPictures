@@ -151,28 +151,28 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Pics\pic1.png" />
+    <Resource Include="Assets\Pics\P1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Pics\pic2.png" />
+    <Resource Include="Assets\Pics\P2.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Pics\pic3.png" />
+    <Resource Include="Assets\Pics\P3.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Pics\pic4.png" />
+    <Resource Include="Assets\Pics\P4.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Pics\pic5.png" />
+    <Resource Include="Assets\Pics\P5.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Pics\pic6.png" />
+    <Resource Include="Assets\Pics\P6.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Pics\pic7.png" />
+    <Resource Include="Assets\Pics\P7.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Pics\pic8.png" />
+    <Resource Include="Assets\Pics\P8.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Emojis\Emoji_1.png" />
@@ -210,9 +210,10 @@
   <ItemGroup>
     <Resource Include="Assets\Icon.png" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Resource Include="_XmlFiles\Users.xml" />
+    <Resource Include="XmlFile\Users.xml">
+      <Generator>MSBuild:Compile</Generator>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

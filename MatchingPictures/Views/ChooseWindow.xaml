@@ -47,9 +47,9 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <Button Grid.Column="0" Grid.Row="0" Content=" &lt; BACK" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli" HorizontalAlignment="Left" VerticalAlignment="Top" Command="{Binding BackCommand}"/>
+        <Button Grid.Column="0" Grid.Row="0" Content=" ᐊᐊ" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli" HorizontalAlignment="Left" VerticalAlignment="Top" Command="{Binding BackCommand}" Width="60" Height="60"/>
 
-        <Image Grid.Column="1" Grid.Row="0" Source="{Binding ImageSource}" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Image Grid.Column="1" Source="{Binding ImageSource}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="150" Width="164" Margin="75,30,0,0"/>
 
         <TextBlock Grid.Column="0" Grid.Row="0" Text="Good to see you! " FontSize="30" Foreground="White" FontFamily="MV Boli" Margin="40,60,0,90"/>
 

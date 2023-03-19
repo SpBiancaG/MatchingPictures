@@ -20,9 +20,6 @@
             <TextBlock x:Name="programmersNameTextBlock" FontSize="30"></TextBlock>
             <TextBlock x:Name="numberOfProcessorsTextBlock" FontSize="15"></TextBlock>
             <TextBlock x:Name="osVersionTextBlock" FontSize="15"></TextBlock>
-            <TextBlock FontSize="15"> 🌍
-           
-            </TextBlock>
         </StackPanel>
         <Button Grid.Row="1" Content="Ok" FontSize="15" Click="OkButtonClick" Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10" Height="30" Width="100"></Button>
     </Grid>
