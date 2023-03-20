@@ -192,7 +192,7 @@ namespace MatchingPictures.Views
 
             foreach (Image img in container)
             {
-                if (img.Name == image1 && img.Name == image2)
+                if (img.Name == image1 || img.Name == image2)
                 {
                     if (src1 == "")
 
@@ -201,8 +201,10 @@ namespace MatchingPictures.Views
                         src2 = img.Source.ToString();
                     
                 }
-                
+                if (!src1.Equals("") && !src2.Equals(""))
+                                              break;
             }
+            
 
             if (src1 == src2)
                 return true;
