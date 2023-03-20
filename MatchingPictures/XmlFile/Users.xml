@@ -2,8 +2,8 @@
 <Users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <List>
     <User>
-      <Name>GF</Name>
-      <ImageIndex>3</ImageIndex>
+      <Name>dsfdsfg</Name>
+      <ImageIndex>0</ImageIndex>
       <GameProperty>
         <CategoryProperty>Basic</CategoryProperty>
         <SavedGame>false</SavedGame>
@@ -18,8 +18,8 @@
       </GameProperty>
     </User>
     <User>
-      <Name>dsfdsfg</Name>
-      <ImageIndex>0</ImageIndex>
+      <Name>GF</Name>
+      <ImageIndex>3</ImageIndex>
       <GameProperty>
         <CategoryProperty>Basic</CategoryProperty>
         <SavedGame>false</SavedGame>

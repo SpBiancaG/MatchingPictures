@@ -56,13 +56,13 @@ namespace MatchingPictures.Views
         Button b_pre = null;
         Button b_next = null;
         int count = 0;  
-        int steps = 30;
+        int steps = 50;
 
         
         List<Image> container = new List<Image>();
         List<Button> buttons = new List<Button>();
 
-        int[] arr = new int[16] { 1, 2, 3, 4, 5, 6, 7, 8, 8, 7, 6, 5, 4, 3, 2, 1,  }; 
+        int[] arr = new int[16] { 1, 2, 3, 4, 5, 6, 7, 8, 8, 7, 6, 5, 4, 3, 2, 1,}; 
 
 
        public HomeWindow()
@@ -121,13 +121,13 @@ namespace MatchingPictures.Views
             foreach (Image img in container)
             {
                 rand_num = arr[i];
-                img.Source = new BitmapImage(new Uri("Assets/Pics/P" + rand_num + ".png", UriKind.Relative   ));
+                img.Source = new BitmapImage(new Uri("D:/MVP labs/MatchingPictures/MatchingPictures/Assets/Pics/P" + rand_num + ".png", UriKind.Absolute  ));
                 i++;
             }
         }
 
         
-        private void Btn_Click(object sender, RoutedEventArgs e)
+        public void Btn_Click(object sender, RoutedEventArgs e)
         {
             Button b = (Button)sender;
 
@@ -151,6 +151,7 @@ namespace MatchingPictures.Views
                 {
                     b_pre.IsEnabled = false;
                     b_next.IsEnabled = false;
+                    
                 }
                 else
                 {
@@ -191,18 +192,21 @@ namespace MatchingPictures.Views
 
             foreach (Image img in container)
             {
-                if (img.Name == image1 || img.Name == image2)
+                if (img.Name == image1 && img.Name == image2)
                 {
                     if (src1 == "")
-                        
+
                         src1 = img.Source.ToString();
-                    else
+                    else 
                         src2 = img.Source.ToString();
+                    
                 }
+                
             }
 
             if (src1 == src2)
                 return true;
+
 
             return false;
         }
