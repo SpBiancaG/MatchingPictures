@@ -9,21 +9,5 @@
         <SavedGame>false</SavedGame>
       </GameProperty>
     </User>
-    <User>
-      <Name>GF</Name>
-      <ImageIndex>3</ImageIndex>
-      <GameProperty>
-        <CategoryProperty>Basic</CategoryProperty>
-        <SavedGame>false</SavedGame>
-      </GameProperty>
-    </User>
-    <User>
-      <Name>dsfdsfg</Name>
-      <ImageIndex>0</ImageIndex>
-      <GameProperty>
-        <CategoryProperty>Basic</CategoryProperty>
-        <SavedGame>false</SavedGame>
-      </GameProperty>
-    </User>
   </List>
 </Users>

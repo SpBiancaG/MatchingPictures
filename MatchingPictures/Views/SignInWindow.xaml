@@ -43,9 +43,9 @@
                 <RowDefinition/>
                 <RowDefinition Height="100"/>
             </Grid.RowDefinitions>
-            <Button Content=" ᐊᐊ" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli"     Command="{Binding BackCommand}" VerticalAlignment="Center" HorizontalAlignment="Left" Width="60" Height="60"/>
-            <Label Content="Login with your profile" FontFamily="MV Boli" Foreground="White" FontSize="25" HorizontalAlignment="Center" Margin="0,30,0,0"/>
-            <ListBox x:Name="listBoxSignUp" Grid.Row="2" Width="229" HorizontalAlignment="Left" Margin="50,0,0,0" FontSize="40" Background="Transparent" FontFamily="MV Boli" Foreground="White" BorderBrush="Transparent" SelectedItem="{Binding SelectedUser}" ItemsSource="{Binding Users}">
+            <Button Content=" ᐊᐊ" Style="{StaticResource ButtonStyle}" FontFamily="Papyrus"     Command="{Binding BackCommand}" VerticalAlignment="Center" HorizontalAlignment="Left" Width="60" Height="60"/>
+            <Label Content="Login with your profile" FontFamily="Papyrus" Foreground="White" FontSize="25" HorizontalAlignment="Center" Margin="0,30,0,0"/>
+            <ListBox x:Name="listBoxSignUp" Grid.Row="2" Width="229" HorizontalAlignment="Left" Margin="50,0,0,0" FontSize="40" Background="Transparent" FontFamily="Papyrus" Foreground="White" BorderBrush="Transparent" SelectedItem="{Binding SelectedUser}" ItemsSource="{Binding Users}">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <TextBlock Text="{Binding Name}"/>
@@ -54,10 +54,10 @@
             </ListBox>
             <Image x:Name="imageSignUp" Grid.Row="2" HorizontalAlignment="Right" Margin="150, 0" Height="250" VerticalAlignment="Top" Source="{Binding ImageSource}"/>
             <WrapPanel Grid.Row="3">
-                <Button Content="Add" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli" Margin="50, 20, 20, 0"     Command="{Binding AddCommand}"/>
-                <Button Content="Edit" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli" Margin="0, 20, 20, 0"     Command="{Binding EditCommand}"/>
-                <Button Content="Delete" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli" Margin="0, 20, 20, 0"  Command="{Binding DeleteCommand}"/>
-                <Button Content="Play" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli" Margin="0, 20, 20, 0"     Command="{Binding PlayCommand}"/>
+                <Button Content="Add" Style="{StaticResource ButtonStyle}" FontFamily="Papyrus" Margin="50, 20, 20, 0"     Command="{Binding AddCommand}"/>
+                <Button Content="Edit" Style="{StaticResource ButtonStyle}" FontFamily="Papyrus" Margin="0, 20, 20, 0"     Command="{Binding EditCommand}"/>
+                <Button Content="Delete" Style="{StaticResource ButtonStyle}" FontFamily="Papyrus" Margin="0, 20, 20, 0"  Command="{Binding DeleteCommand}"/>
+                <Button Content="Play" Style="{StaticResource ButtonStyle}" FontFamily="Papyrus" Margin="0, 20, 20, 0"     Command="{Binding PlayCommand}"/>
             </WrapPanel>
         </Grid>
     </Grid>

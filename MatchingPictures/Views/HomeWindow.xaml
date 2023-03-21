@@ -39,16 +39,16 @@
 
 
         <Menu Grid.Row="0" Grid.Column="0" Background="Transparent" BorderBrush="Transparent" BorderThickness="1" RenderTransformOrigin="0.502,1.135" Margin="10,10,563,571">
-            <MenuItem Header="More" FontSize="20" FontFamily="MV Boli" Foreground="White" BorderThickness="1" Background="Transparent" BorderBrush="AntiqueWhite" Width="94">
+            <MenuItem Header="More" FontSize="20" FontFamily="Papyrus" Foreground="White" BorderThickness="1" Background="Transparent" BorderBrush="AntiqueWhite" Width="94">
                 <MenuItem Header="New" Background="IndianRed" Command="{Binding NewCommand}"/>
                 <MenuItem Header="Save" Background="IndianRed" Command="{Binding SaveCommand}"/>
                 <MenuItem Header="Exit" Background="IndianRed" Command="{Binding ExitCommand}"/>
             </MenuItem>
-            <MenuItem Header="Categories" FontSize="20" FontFamily="MV Boli" Foreground="White" BorderThickness="1" Background="Transparent" BorderBrush="AntiqueWhite">
-                <MenuItem x:Name="BasicMenuItem" Header="All" Background="IndianRed" IsCheckable="True" Command="{Binding SelectCategoryCommand}" CommandParameter="{Binding ElementName=AllMenuItem}" IsChecked="{Binding AllIsSelected}"/>
+            <MenuItem Header="Categories" FontSize="20" FontFamily="Papyrus" Foreground="White" BorderThickness="1" Background="Transparent" BorderBrush="AntiqueWhite">
+                <MenuItem x:Name="BasicMenuItem" Header="Basic" Background="IndianRed" IsCheckable="True" Command="{Binding SelectCategoryCommand}" CommandParameter="{Binding ElementName=AllMenuItem}" IsChecked="{Binding AllIsSelected}"/>
 
             </MenuItem>
-            <MenuItem Header="About" FontSize="20" FontFamily="MV Boli" Foreground="White" BorderThickness="1" Background="Transparent" BorderBrush="AntiqueWhite" Width="83">
+            <MenuItem Header="About" FontSize="20" FontFamily="Papyrus" Foreground="White" BorderThickness="1" Background="Transparent" BorderBrush="AntiqueWhite" Width="83">
                 <MenuItem Header="About" Background="IndianRed" Command="{Binding AboutCommand}"/>
             </MenuItem>
         </Menu>
@@ -77,7 +77,7 @@
 
 
 
-        <Label x:Name="lbl_steps" Content="Steps Left" HorizontalAlignment="Left" Margin="538,14,0,0" VerticalAlignment="Top" Height="54" Width="172" RenderTransformOrigin="0.5,0.5" FontFamily="MV Boli" FontSize="30" Foreground="AntiqueWhite" >
+        <Label x:Name="lbl_steps" Content="Steps Left" HorizontalAlignment="Left" Margin="538,14,0,0" VerticalAlignment="Top" Height="54" Width="172" RenderTransformOrigin="0.5,0.5" FontFamily="Papyrus" FontSize="30" Foreground="AntiqueWhite" >
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -88,7 +88,7 @@
             </Label.RenderTransform>
         </Label>
 
-        <Button x:Name="btn_score" Content="30" HorizontalAlignment="Left" Margin="721,10,0,0" VerticalAlignment="Top" Width="69" Height="61" Background="Transparent" Foreground="AntiqueWhite" BorderBrush="AntiqueWhite" FontFamily="MV Boli" FontSize="40"/>
+        <Button x:Name="btn_score" Content="30" HorizontalAlignment="Left" Margin="721,10,0,0" VerticalAlignment="Top" Width="69" Height="61" Background="Transparent" Foreground="AntiqueWhite" BorderBrush="AntiqueWhite" FontFamily="Papyrus" FontSize="40"/>
 
         <Button x:Name="B1" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="184,128,0,0">
             <Button.Background>

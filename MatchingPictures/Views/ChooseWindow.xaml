@@ -47,16 +47,16 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <Button Grid.Column="0" Grid.Row="0" Content=" ᐊᐊ" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli" HorizontalAlignment="Left" VerticalAlignment="Top" Command="{Binding BackCommand}" Width="60" Height="60"/>
+        <Button Grid.Column="0" Grid.Row="0" Content=" ᐊᐊ" Style="{StaticResource ButtonStyle}" FontFamily="Papyrus" HorizontalAlignment="Left" VerticalAlignment="Top" Command="{Binding BackCommand}" Width="60" Height="60"/>
 
         <Image Grid.Column="1" Source="{Binding ImageSource}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="150" Width="164" Margin="75,30,0,0"/>
 
-        <TextBlock Grid.Column="0" Grid.Row="0" Text="Good to see you! " FontSize="30" Foreground="White" FontFamily="MV Boli" Margin="40,60,0,90"/>
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="Good to see you! " FontSize="30" Foreground="White" FontFamily="Papyrus" Margin="40,60,0,90"/>
 
-        <TextBlock Grid.Column="0" Grid.Row="0" Text="{Binding Name}" FontSize="30" Foreground="White" FontFamily="MV Boli" Margin="100,110,0,40"/>
+        <TextBlock Grid.Column="0" Grid.Row="0" Text="{Binding Name}" FontSize="30" Foreground="White" FontFamily="Papyrus" Margin="100,110,0,40"/>
 
         <StackPanel Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center">
-            <Button Grid.Column="0" Grid.Row="1" Content="NEW GAME" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="250" Command="{Binding NewGameCommand}"/>
+            <Button Grid.Column="0" Grid.Row="1" Content="NEW GAME" Style="{StaticResource ButtonStyle}" FontFamily="Papyrus" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="250" Command="{Binding NewGameCommand}"/>
         </StackPanel>
     </Grid>
 </Window>

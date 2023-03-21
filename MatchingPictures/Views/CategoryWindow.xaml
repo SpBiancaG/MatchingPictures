@@ -30,7 +30,7 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
-        
+
     </Window.Resources>
     <Window.DataContext>
         <ctx:CategoryViewModel/>
@@ -45,10 +45,8 @@
         <StackPanel>
             <Button Grid.Column="0" Grid.Row="1" Content=" ᐊᐊ" Style="{StaticResource ButtonStyle}" FontFamily="MV Boli" HorizontalAlignment="Left" VerticalAlignment="Bottom" HorizontalContentAlignment="Left" Command="{Binding BackCommand}" Width="60" Height="60" Click="Button_Click"/>
 
-            <TextBlock Text="Choose a category" FontFamily="MV Boli" Foreground="White" FontSize="50" HorizontalAlignment="Center"/>
-
-            <ListBox x:Name="listBoxSignUp" Grid.Row="2" Width="229" HorizontalAlignment="Center" FontSize="30" Background="Transparent" FontFamily="MV Boli" Foreground="White" BorderBrush="Transparent" ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory}" Height="320" >
-            </ListBox>
+            <TextBlock Text="Game category" FontFamily="Papyrus" Foreground="White" FontSize="50" HorizontalAlignment="Center"/>
+            <ListBox x:Name="listBoxSignUp" Width="100" FontSize="30" Background="Transparent" FontFamily="Papyrus" Foreground="White" BorderBrush="Transparent" ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory}" Height="83" />
         </StackPanel>
     </Grid>
 </Window>

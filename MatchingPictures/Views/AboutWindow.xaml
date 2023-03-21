@@ -21,6 +21,6 @@
             <TextBlock x:Name="numberOfProcessorsTextBlock" FontSize="15"></TextBlock>
             <TextBlock x:Name="osVersionTextBlock" FontSize="15"></TextBlock>
         </StackPanel>
-        <Button Grid.Row="1" Content="Ok" FontSize="15" Click="OkButtonClick" Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10" Height="30" Width="100"></Button>
+        <Button Grid.Row="1" Content="Ok" FontFamily="Papyrus" FontSize="20" Click="OkButtonClick" Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,95,0,0" Height="39" Width="100"></Button>
     </Grid>
 </Window>
