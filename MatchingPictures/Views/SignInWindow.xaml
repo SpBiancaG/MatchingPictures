@@ -33,7 +33,7 @@
     </Window.Resources>
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\BackgroundImage.png"/>
+            <ImageBrush ImageSource="\Assets\BackgroundImage.png"/>
         </Grid.Background>
 
         <Grid Margin="0,-20,0,20">

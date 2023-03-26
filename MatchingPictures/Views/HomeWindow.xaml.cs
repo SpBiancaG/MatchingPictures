@@ -121,7 +121,7 @@ namespace MatchingPictures.Views
             foreach (Image img in container)
             {
                 rand_num = arr[i];
-                img.Source = new BitmapImage(new Uri("D:/MVP labs/MatchingPictures/MatchingPictures/Assets/Pics/P" + rand_num + ".png", UriKind.Absolute  ));
+                img.Source = new BitmapImage(new Uri("/Assets/Pics/P" + rand_num + ".png", UriKind.Relative ));
                 i++;
             }
         }

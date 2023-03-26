@@ -33,7 +33,7 @@
     </Window.Resources>
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\BackgroundImage.png"/>
+            <ImageBrush ImageSource="\Assets\BackgroundImage.png"/>
         </Grid.Background>
 
 
@@ -55,22 +55,22 @@
 
 
         <Image x:Name="A1" HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P1.png" Stretch="UniformToFill" Margin="184,128,0,0"/>
-        <Image x:Name="A2" HorizontalAlignment="Left" Height="120" Margin="310,128,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P6.png" Stretch="UniformToFill"/>
-        <Image x:Name="A3" HorizontalAlignment="Left" Height="120" Margin="435,128,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P5.png" OpacityMask="#FFD8A9A9" Stretch="UniformToFill"/>
-        <Image x:Name="A4" HorizontalAlignment="Left" Height="120" Margin="560,128,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P4.png" OpacityMask="White" Stretch="UniformToFill"/>
-        <Image x:Name="A5" HorizontalAlignment="Left" Height="120" Margin="184,253,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P6.png" OpacityMask="White" Stretch="UniformToFill"/>
-        <Image x:Name="A6" HorizontalAlignment="Left" Height="120" Margin="310,253,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P5.png" OpacityMask="White" Stretch="UniformToFill"/>
-        <Image x:Name="A7" HorizontalAlignment="Left" Height="120" Margin="435,253,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P3.png" OpacityMask="White" Stretch="UniformToFill"/>
-        <Image x:Name="A8" HorizontalAlignment="Left" Height="120" Margin="560,253,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P4.png" OpacityMask="White" Stretch="UniformToFill"/>
-        <Image x:Name="A9" HorizontalAlignment="Left" Height="120" Margin="184,378,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P3.png" OpacityMask="White" Stretch="UniformToFill"/>
-        <Image x:Name="A12" HorizontalAlignment="Left" Height="120" Margin="560,378,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P2.png" OpacityMask="White" Stretch="UniformToFill"/>
-        <Image x:Name="A11" HorizontalAlignment="Left" Height="120" Margin="435,378,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P2.png" OpacityMask="White" Stretch="UniformToFill"/>
-        <Image x:Name="A10" HorizontalAlignment="Left" Height="120" Margin="310,378,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P1.png" OpacityMask="White" Stretch="UniformToFill"/>
+        <Image x:Name="A2" HorizontalAlignment="Left" Height="120" Margin="310,128,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P6.png" Stretch="UniformToFill"/>
+        <Image x:Name="A3" HorizontalAlignment="Left" Height="120" Margin="435,128,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P5.png" OpacityMask="#FFD8A9A9" Stretch="UniformToFill"/>
+        <Image x:Name="A4" HorizontalAlignment="Left" Height="120" Margin="560,128,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P4.png" OpacityMask="White" Stretch="UniformToFill"/>
+        <Image x:Name="A5" HorizontalAlignment="Left" Height="120" Margin="184,253,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P6.png" OpacityMask="White" Stretch="UniformToFill"/>
+        <Image x:Name="A6" HorizontalAlignment="Left" Height="120" Margin="310,253,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P5.png" OpacityMask="White" Stretch="UniformToFill"/>
+        <Image x:Name="A7" HorizontalAlignment="Left" Height="120" Margin="435,253,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P3.png" OpacityMask="White" Stretch="UniformToFill"/>
+        <Image x:Name="A8" HorizontalAlignment="Left" Height="120" Margin="560,253,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P4.png" OpacityMask="White" Stretch="UniformToFill"/>
+        <Image x:Name="A9" HorizontalAlignment="Left" Height="120" Margin="184,378,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P3.png" OpacityMask="White" Stretch="UniformToFill"/>
+        <Image x:Name="A12" HorizontalAlignment="Left" Height="120" Margin="560,378,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P2.png" OpacityMask="White" Stretch="UniformToFill"/>
+        <Image x:Name="A11" HorizontalAlignment="Left" Height="120" Margin="435,378,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P2.png" OpacityMask="White" Stretch="UniformToFill"/>
+        <Image x:Name="A10" HorizontalAlignment="Left" Height="120" Margin="310,378,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P1.png" OpacityMask="White" Stretch="UniformToFill"/>
 
-        <Image x:Name="A13" HorizontalAlignment="Left" Height="120" Margin="184,503,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P7.png" Stretch="UniformToFill"/>
-        <Image x:Name="A14" HorizontalAlignment="Left" Height="120" Margin="310,503,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P7.png" Stretch="UniformToFill"/>
-        <Image x:Name="A15" HorizontalAlignment="Left" Height="120" Margin="435,503,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P8.png" Stretch="UniformToFill"/>
-        <Image x:Name="A16" HorizontalAlignment="Left" Height="120" Margin="560,503,0,0" VerticalAlignment="Top" Width="120" Source="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Pics\P8.png" Stretch="UniformToFill"/>
+        <Image x:Name="A13" HorizontalAlignment="Left" Height="120" Margin="184,503,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P7.png" Stretch="UniformToFill"/>
+        <Image x:Name="A14" HorizontalAlignment="Left" Height="120" Margin="310,503,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P7.png" Stretch="UniformToFill"/>
+        <Image x:Name="A15" HorizontalAlignment="Left" Height="120" Margin="435,503,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P8.png" Stretch="UniformToFill"/>
+        <Image x:Name="A16" HorizontalAlignment="Left" Height="120" Margin="560,503,0,0" VerticalAlignment="Top" Width="120" Source="\Assets\Pics\P8.png" Stretch="UniformToFill"/>
 
 
 
@@ -92,83 +92,83 @@
 
         <Button x:Name="B1" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="184,128,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
 
         <Button x:Name="B2" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="310,128,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B3" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="435,128,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B4" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="560,128,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B5" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="185,253,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B6" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="310,253,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B7" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="435,253,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B8" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="560,253,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B9" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="185,378,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B10" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="310,378,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B11" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="435,378,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B12" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="560,378,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B13" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="185,503,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B14" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="310,503,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B15" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="435,503,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
         <Button x:Name="B16" Content=""  HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="120" Click="Btn_Click" Margin="560,503,0,0">
             <Button.Background>
-                <ImageBrush TileMode="Tile" ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\Icon.png" Stretch="UniformToFill"/>
+                <ImageBrush TileMode="Tile" ImageSource="\Assets\Icon.png" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
 

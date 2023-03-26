@@ -8,7 +8,7 @@
         Title="About" Height="240" Width="400"
         ResizeMode="NoResize" WindowStartupLocation="CenterScreen" >
     <Window.Background>
-        <ImageBrush ImageSource="D:\MVP labs\MatchingPictures\MatchingPictures\Assets\BackgroundImage.png"/>
+        <ImageBrush ImageSource="\Assets\BackgroundImage.png"/>
     </Window.Background>
     <Grid>
         <Grid.RowDefinitions>

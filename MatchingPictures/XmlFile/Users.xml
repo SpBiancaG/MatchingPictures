@@ -6,6 +6,14 @@
       <ImageIndex>0</ImageIndex>
       <GameProperty>
         <CategoryProperty>Basic</CategoryProperty>
+        <SavedGame>true</SavedGame>
+      </GameProperty>
+    </User>
+    <User>
+      <Name>Bianca</Name>
+      <ImageIndex>1</ImageIndex>
+      <GameProperty>
+        <CategoryProperty>Basic</CategoryProperty>
         <SavedGame>false</SavedGame>
       </GameProperty>
     </User>
